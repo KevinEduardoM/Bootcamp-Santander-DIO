@@ -1,0 +1,23 @@
+server:
+  port: 9090
+  servlet:
+   context-path: /Bootcamp
+
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;databaseName=bdBootcampSantander
+    username: sa
+    password: teste
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.SQLServer2008Dialect
+    generate-ddl: false
+    hipernate:
+      ddl-auto: none
+aplication:
+  description: Projeto criado para o bootcamp DIO - Santander
+  version: 1.0
+
+
+
