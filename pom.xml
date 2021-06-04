@@ -31,7 +31,7 @@
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
-			<version>${parent.version}</version> 
+			<version>${project.parent.version}</version> 
 		</dependency>
 
 		<dependency>
