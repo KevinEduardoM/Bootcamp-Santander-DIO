@@ -42,7 +42,8 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-		</dependency>	
+			<version>9.4-1200-jdbc4</version>
+		</dependency>
 	</dependencies>
 
 	<build>
