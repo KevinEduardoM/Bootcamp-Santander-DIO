@@ -5,13 +5,13 @@ server:
 
 spring:
   datasource:
-    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    driver-class-name: org.postgresql.Driver
     url: postgres://xvnyphvzanpnea:48ec3f4eb4006bac22867ba59ecc4be6b87dc5fd2dc187504f8798a79fd0f206@ec2-54-197-100-79.compute-1.amazonaws.com:5432/dc5q0q2qv6enuj
     username: xvnyphvzanpnea
     password: 48ec3f4eb4006bac22867ba59ecc4be6b87dc5fd2dc187504f8798a79fd0f206
   jpa:
     show-sql: true
-    database-platform: org.hibernate.dialect.SQLServer2008Dialect
+    database-platform: postgres
     generate-ddl: true
     hipernate:
       ddl-auto: none
