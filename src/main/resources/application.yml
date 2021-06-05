@@ -11,7 +11,7 @@ spring:
     password: 48ec3f4eb4006bac22867ba59ecc4be6b87dc5fd2dc187504f8798a79fd0f206
   jpa:
     show-sql: true
-    database-platform: postgres
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     generate-ddl: true
     hipernate:
       ddl-auto: none
